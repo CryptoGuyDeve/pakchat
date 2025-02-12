@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "name": "chatting-app",
+    "slug": "chatting-app",
+    "version": "1.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ]
+  }
+}
