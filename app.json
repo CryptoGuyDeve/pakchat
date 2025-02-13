@@ -1,12 +1,39 @@
 {
   "expo": {
-    "name": "chatting-app",
-    "slug": "chatting-app",
+    "name": "ChatApp",
+    "slug": "chat-app",
     "version": "1.0.0",
-    "platforms": [
-      "ios",
-      "android",
-      "web"
-    ]
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/notification-icon.png",
+          "color": "#ffffff",
+          "sounds": ["./assets/notification-sound.wav"]
+        }
+      ]
+    ],
+    "scheme": "chat-app",
+    "experiments": {
+      "tsconfigPaths": true
+    },
+    "newArchEnabled": true
   }
 }
